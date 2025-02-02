@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <form>
+    <form id="task_form">
         <fieldset>
             <label for="proj">Project title:</label><br>
             <input type="text" id="proj" name="proj_title"><br>
@@ -25,7 +25,13 @@
             <label for="priority">Priority:</label><br>
             <input type="range" id="priority" name="priority" min="1" max="3"><br>
         </fieldset>
+        <input type="button" id="submit" value="Submit">
+        <input type="reset" id="reset" value="Reset">
       </form>
+
+    <div id="projects">
+
+    </div>
 
 <script src="task_mgr.js"></script>
 </body>
