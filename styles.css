@@ -6,3 +6,20 @@ form {
     width: 50%;
     margin: 0 auto;
 }
+
+h1, ol {
+    margin: 0;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    /* grid-template-columns: masonry; */
+
+    background-color: #ccc;
+}
+
+.task {
+    border: solid 1px black;
+}
